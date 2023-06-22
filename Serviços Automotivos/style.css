@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(128, 128, 128);
+    font-family: Arial, sans-serif;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(39, 39, 39);
+    box-shadow: 0 0 10px black;
+}
+
+.logo {
+    color: white;
+    letter-spacing: -3px;
+    text-transform: lowercase;
+}
+
+.logo span:first-child {
+    color: rgb(128, 128, 128);
+}
+
+.logo span:last-child {
+    font-size: 12px;
+    letter-spacing: normal;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu li a {
+    padding: 17px;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: rgb(128, 128, 128);
+    font-weight: bold;
+    transition: 0.60s;
+}
